@@ -1,4 +1,8 @@
-import shoppingList from './shopping-list.js';
+import $ from 'jquery';
+import cuid from 'cuid';
+import '../styles/index.css';
+
+import shoppingList from './shopping-list';
 
 const main = function () {
   shoppingList.bindEventListeners();
